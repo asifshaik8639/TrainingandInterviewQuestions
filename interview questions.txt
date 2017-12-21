@@ -1,0 +1,139 @@
+
+How to handle routing in Angular2? What are the main routing components?
+========
+
+How to develop your first Angular2 application in steps to render simple text?
+Briefly explain Angular 2 Metadata?
+What are Modules in Angularjs 2.0?
+What are Components in Angular 2.0?
+Briefly explain Angularjs 2 Directives?
+
+How to setup development environment for Angular2?
+=======
+
+AOT Compilation
+Ahead-of-time (AOT) compiles the application at build time with optimizations and is the method that must be used for production builds.
+
+What kind of classes can you import (meta) in an angular module?
+======
+
+How do you define optional fields in a TypeScript class?
+=========
+
+
+Why are components not marked with @injectable annotation, but services need to be?
+========
+
+What’s the difference between for..in and for..of?
+====
+How does the event emitter work in Angular 2? Explain it with pseudo code.
+==========
+
+
+How do you use a JavaScript (Non TypeScript) third party lib in an Angular 2 App?
+==========
+
+What types of pipes are supported in Angular 2?
+
+
+What's the difference between RouterModule.forChild and RouterModule.forRoot?
+=============
+How do you create and show pop-up windows in Angular 2?
+
+Can we import a module twice?
+
+What’s the difference between a promise and Observable?
+============
+What are different kinds of directives supported in Angular 2?
+
+How would you protect a component being activated through the router
+==========
+
+
+How would you create a component to display error messages throughout your application?
+=========
+
+
+Component Interaction & State Management Questions:
+
+How would you pass data from a parent component to a child component?
+============
+How would you pass data from a child component to a parent component?
+Which components will be notified when an event is emitted?
+Tell me about the different ways how you would get data to your components from a service and talk about why would you use one way vs the other?
+How would you use cached data?
+
+=====================================
+forms related questions
+What's the difference between NgForm, FormGroup, and FormControl? How do they work together?
+What's the advantage of using FormBuilder?
+How do you add form validation to a form built with FormBuilder?
+What's the difference between dirty, touched, and pristine on a form element?
+=============
+=============================================
+
+Services Questions:
+
+What is the use case of services?
+==========
+How are the services injected to your application?
+=========
+How do you unit test a service with a dependency
+========================================================
+Lifecycle Hooks Questions:
+
+What is the possible order of lifecycle hooks.
+When will ngOnInit be called?
+How would you make use of ngOnInit()?
+What would you consider a thing you should be careful doing on ngOnInit()?
+What is the difference between ngOnInit() and constructor() of a component?
+===========================================================
+
+
+
+function nonRepeatingChar(string)
+{
+  for(var i=0;i<string.length;i++){
+    var ch = string.charAt(i);
+    if(string.indexOf(ch) == i && string.indexOf(ch,i+1) == -1){
+        return ch;
+       }
+  }
+  return null;
+}
+
+console.log("Non Repeting char  :--"+nonRepeatingChar("asif shaik"));
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+A state mutation was detected between dispatches, in the path `reduxSaga.reduxSagaResultData.resultData.request.responseBody`. This may cause incorrect behavior. (http://redux.js.org/docs/Troubleshooting.html#never-mutate-reducer-arguments)
+
+
+
+
+Sr#	Candidate Name
+1	VIVEK KUMAR SINGH
+2	Priyanka Verma
+3	Sanjay Tiwari
+4	Dharmendra Kumar
+
+
+
+//click on run button below to see the output like for example
+//see the right pane for output
+//pls proceed
+
+
+function sum(x, y) {
+  return x + y;
+}
+console.log('sum of => ', sum(2,3));
+//ok
